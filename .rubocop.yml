@@ -101,7 +101,7 @@ Style/TrailingCommaInArguments:
   Enabled: false
 
 Style/SpaceInsideHashLiteralBraces:
-  Enabled: true
+  Enabled: false
 
 Style/SpaceInsideBlockBraces:
   Enabled: false
