@@ -91,6 +91,9 @@ Style/IndentArray:
 Style/SpaceInLambdaLiteral:
   EnforcedStyle: require_space
 
+Style/FirstParameterIndentation:
+  EnforcedStyle: consistent
+
 Style/LineEndConcatenation:
   Enabled: false
 
