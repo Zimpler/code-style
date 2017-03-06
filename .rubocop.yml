@@ -225,3 +225,6 @@ Style/MultilineMethodCallBraceLayout:
 
 Rails/FilePath:
   Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
