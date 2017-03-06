@@ -243,3 +243,6 @@ Style/EmptyLinesAroundClassBody:
 
 Style/EmptyLinesAroundModuleBody:
   Enabled: false
+
+Style/EmptyLinesAroundMethodBody:
+  Enabled: false
