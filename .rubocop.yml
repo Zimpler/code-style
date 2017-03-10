@@ -261,3 +261,6 @@ Style/SpaceInsideStringInterpolation:
 
 Style/SpaceAroundOperators:
   Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
