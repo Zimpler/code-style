@@ -255,3 +255,6 @@ Style/MutableConstant:
 
 Style/StabbyLambdaParentheses:
   Enabled: false
+
+Style/SpaceInsideStringInterpolation:
+  Enabled: false
