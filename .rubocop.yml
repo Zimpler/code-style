@@ -252,3 +252,6 @@ Style/ExtraSpacing:
 
 Style/MutableConstant:
   Enabled: false
+
+Style/StabbyLambdaParentheses:
+  Enabled: false
