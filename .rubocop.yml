@@ -258,3 +258,6 @@ Style/StabbyLambdaParentheses:
 
 Style/SpaceInsideStringInterpolation:
   Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
