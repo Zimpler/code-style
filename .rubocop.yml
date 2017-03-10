@@ -249,3 +249,6 @@ Style/EmptyLinesAroundMethodBody:
 
 Style/ExtraSpacing:
   Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
