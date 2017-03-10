@@ -246,3 +246,6 @@ Style/EmptyLinesAroundModuleBody:
 
 Style/EmptyLinesAroundMethodBody:
   Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
