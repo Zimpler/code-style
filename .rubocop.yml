@@ -72,8 +72,8 @@ Style/TrivialAccessors:
 
 Style/CaseIndentation:
   Enabled: true
-  IndentOneStep: true
-  EnforcedStyle: end
+  IndentOneStep: false
+  EnforcedStyle: case
 
 Style/MultilineOperationIndentation:
   EnforcedStyle: indented
@@ -224,4 +224,43 @@ Style/MultilineMethodCallBraceLayout:
   Enabled: false
 
 Rails/FilePath:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Style/EmptyLines:
+  Enabled: false
+
+Style/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/StabbyLambdaParentheses:
+  Enabled: false
+
+Style/SpaceInsideStringInterpolation:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
+
+Metrics/MethodLength:
   Enabled: false
