@@ -35,7 +35,7 @@ Style/IndentHash:
   Severity: error
 
 Style/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
+  EnforcedStyle: with_first_parameter
   Severity: error
 
 Metrics/ParameterLists:
