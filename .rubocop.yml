@@ -263,3 +263,6 @@ Metrics/MethodLength:
 
 Style/AlignParameters:
   Enabled: false
+
+Rails/Output:
+  Enabled: false
