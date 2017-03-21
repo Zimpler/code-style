@@ -266,3 +266,6 @@ Style/AlignParameters:
 
 Rails/Output:
   Enabled: false
+
+Rails/OutputSafety:
+  Enabled: false
