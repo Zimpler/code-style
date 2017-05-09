@@ -75,8 +75,7 @@ Style/MultilineOperationIndentation:
   EnforcedStyle: indented
 
 Style/RegexpLiteral:
-  EnforcedStyle: slashes
-  AllowInnerSlashes: true
+  Enabled: false
 
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
