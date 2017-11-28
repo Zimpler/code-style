@@ -1,0 +1,270 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - setup.rb
+    - 'tmp/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/*.rake'
+    - 'spec/client_helper.rb'
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+
+Rails:
+  Enabled: true
+
+Rails/Date:
+  Severity: error
+
+Rails/TimeZone:
+  Severity: error
+
+Layout/IndentationWidth:
+  Severity: error
+
+Layout/IndentationConsistency:
+  Severity: error
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+  Severity: error
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Metrics/PerceivedComplexity:
+  Severity: warning
+
+Metrics/CyclomaticComplexity:
+  Severity: warning
+
+Metrics/MethodLength:
+  Max: 40
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Layout/SpaceAfterComma:
+  Enabled: true
+
+Layout/SpaceAroundOperators:
+  Enabled: true
+
+Layout/SpaceBeforeSemicolon:
+  Enabled: false
+
+Style/TrivialAccessors:
+  ExactNameMatch: true
+  AllowPredicates: true
+  AllowDSLWriters: true
+
+Layout/CaseIndentation:
+  Enabled: true
+  IndentOneStep: false
+  EnforcedStyle: case
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+Layout/FirstParameterIndentation:
+  EnforcedStyle: consistent
+
+Style/LineEndConcatenation:
+  Enabled: false
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Layout/SpaceInsideBlockBraces:
+  Enabled: false
+
+Layout/SpaceInsideBrackets:
+  Enabled: false
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/ClassMethods:
+  Enabled: false
+
+Layout/SpaceAfterMethodName:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Layout/BlockEndNewline:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Layout/MultilineBlockLayout:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/CollectionMethods:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Rails/Validation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Lint/FormatParameterMismatch:
+  Enabled: false
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Performance/RedundantMatch:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Layout/EmptyLines:
+  Enabled: false
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/StabbyLambdaParentheses:
+  Enabled: false
+
+Layout/SpaceInsideStringInterpolation:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Layout/AlignParameters:
+  Enabled: false
+
+Rails/Output:
+  Enabled: false
+
+Rails/OutputSafety:
+  Enabled: false
